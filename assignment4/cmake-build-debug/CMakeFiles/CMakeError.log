@@ -1,0 +1,16 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: //wsl$/Ubuntu-20.04/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f Makefile cmTC_2850e/fast && C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2850e.dir\build.make CMakeFiles/cmTC_2850e.dir/build
+mingw32-make.exe[1]: Entering directory '//wsl$/Ubuntu-20.04/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2850e.dir/CheckIncludeFile.c.obj
+C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_2850e.dir\CheckIncludeFile.c.obj -c \\wsl$\Ubuntu-20.04\home\ashwin\grpc\examples\cpp\assignment4\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+gcc.exe: error: \wsl$\Ubuntu-20.04\home\ashwin\grpc\examples\cpp\assignment4\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_2850e.dir\build.make:77: CMakeFiles/cmTC_2850e.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory '//wsl$/Ubuntu-20.04/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_2850e/fast] Error 2
+
+
+

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="KeyValueStore"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\cmake\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\protobuf\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\grpc\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCARES_STATICLIB"/>
+					<Add directory="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+					<Add directory="/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCARES_STATICLIB"/>
+					<Add directory="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+					<Add directory="/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client">
+				<Option output="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCARES_STATICLIB"/>
+					<Add directory="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+					<Add directory="/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 client"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client/fast">
+				<Option output="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCARES_STATICLIB"/>
+					<Add directory="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+					<Add directory="/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 client/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kvs_grpc_proto">
+				<Option output="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/libkvs_grpc_proto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCARES_STATICLIB"/>
+					<Add directory="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+					<Add directory="/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 kvs_grpc_proto"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kvs_grpc_proto/fast">
+				<Option output="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/libkvs_grpc_proto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCARES_STATICLIB"/>
+					<Add directory="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl"/>
+					<Add directory="/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 kvs_grpc_proto/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/keyvaluestore.grpc.pb.cc">
+			<Option target="kvs_grpc_proto"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/keyvaluestore.grpc.pb.h">
+			<Option target="kvs_grpc_proto"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/keyvaluestore.pb.cc">
+			<Option target="kvs_grpc_proto"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/keyvaluestore.pb.cc.rule">
+			<Option target="kvs_grpc_proto"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl/keyvaluestore.pb.h">
+			<Option target="kvs_grpc_proto"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/config">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/keyvalueclient.cc">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/keyvalueserver.cc">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/../cmake/common.cmake">
+			<Option virtualFolder="CMake Files\..\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/../../../../../../usr/lib/cmake/protobuf/protobuf-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/../../../../../../usr/lib/cmake/protobuf/protobuf-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/../../../../../../usr/lib/cmake/protobuf/protobuf-options.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/../../../../../../usr/lib/cmake/protobuf/protobuf-targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/../../../../../../usr/lib/cmake/protobuf/protobuf-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/../../../../../../usr/lib/cmake/grpc/gRPCConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/../../../../../../usr/lib/cmake/grpc/gRPCConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/../../../../../../usr/lib/cmake/grpc/gRPCTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="/home/ashwin/grpc/examples/cpp/assignment4/../../../../../../usr/lib/cmake/grpc/gRPCTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\grpc\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

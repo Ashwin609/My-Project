@@ -1,0 +1,19 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" \\wsl$\Ubuntu-20.04\home\ashwin\grpc\examples\cpp\assignment4
+CMake Error at //wsl$/Ubuntu-20.04/home/ashwin/grpc/examples/cpp/cmake/common.cmake:101 (find_package):
+  Could not find a package configuration file provided by "Protobuf" with any
+  of the following names:
+
+    ProtobufConfig.cmake
+    protobuf-config.cmake
+
+  Add the installation prefix of "Protobuf" to CMAKE_PREFIX_PATH or set
+  "Protobuf_DIR" to a directory containing one of the above files.  If
+  "Protobuf" provides a separate development package or SDK, be sure it has
+  been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:24 (include)
+
+
+-- Configuring incomplete, errors occurred!
+See also "//wsl$/Ubuntu-20.04/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "//wsl$/Ubuntu-20.04/home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug/CMakeFiles/CMakeError.log".

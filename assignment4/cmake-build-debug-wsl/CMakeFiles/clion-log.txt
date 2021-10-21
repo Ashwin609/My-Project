@@ -1,0 +1,42 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/sh -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' /home/ashwin/grpc/examples/cpp/assignment4; sleep 0.001"
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+CMake Warning (dev) at /usr/lib/cmake/protobuf/protobuf-options.cmake:6 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'protobuf_MODULE_COMPATIBLE'.
+Call Stack (most recent call first):
+  /usr/lib/cmake/protobuf/protobuf-config.cmake:2 (include)
+  /home/ashwin/grpc/examples/cpp/cmake/common.cmake:101 (find_package)
+  CMakeLists.txt:24 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Using protobuf 3.15.8.0
+-- Using gRPC 1.40.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ashwin/grpc/examples/cpp/assignment4/cmake-build-debug-wsl
